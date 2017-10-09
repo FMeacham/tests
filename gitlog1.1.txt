@@ -1,0 +1,27 @@
+D-69-91-158-14:Documents frazer$ git clone https://github.com/FMeacham/tests.git
+Cloning into 'tests'...
+remote: Counting objects: 15, done.
+remote: Total 15 (delta 0), reused 0 (delta 0), pack-reused 15
+Unpacking objects: 100% (15/15), done.
+Checking connectivity... done.
+D-69-91-158-14:Documents frazer$ cd tests
+D-69-91-158-14:tests frazer$ ls
+README.md	multiply.py
+D-69-91-158-14:tests frazer$ git init
+Reinitialized existing Git repository in /Users/frazer/Documents/tests/.git/
+D-69-91-158-14:tests frazer$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+D-69-91-158-14:tests frazer$ git checkout -b solr_search
+Switched to a new branch 'solr_search'
+D-69-91-158-14:tests frazer$ git status
+On branch solr_search
+nothing to commit, working directory clean
+D-69-91-158-14:tests frazer$ git push origin -u origin solr_search
+fatal: refs/remotes/origin/HEAD cannot be resolved to branch.
+D-69-91-158-14:tests frazer$ git push -u origin solr_search
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/FMeacham/tests.git
+ * [new branch]      solr_search -> solr_search
+Branch solr_search set up to track remote branch solr_search from origin.
