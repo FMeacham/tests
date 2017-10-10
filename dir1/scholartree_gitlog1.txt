@@ -1,0 +1,20 @@
+D-69-91-158-14:Documents frazer$ git clone https://github.com/ryansmcgee/doi-lit-browser.git
+Cloning into 'doi-lit-browser'...
+remote: Counting objects: 122, done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 122 (delta 4), reused 7 (delta 4), pack-reused 111
+Receiving objects: 100% (122/122), 8.09 MiB | 905.00 KiB/s, done.
+Resolving deltas: 100% (36/36), done.
+Checking connectivity... done.
+D-69-91-158-14:Documents frazer$ cd doi-lit-browser
+D-69-91-158-14:doi-lit-browser frazer$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+D-69-91-158-14:doi-lit-browser frazer$ git checkout -b solr_search_function
+Switched to a new branch 'solr_search_function'
+D-69-91-158-14:doi-lit-browser frazer$ git push -u origin solr_search_function
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/ryansmcgee/doi-lit-browser.git
+ * [new branch]      solr_search_function -> solr_search_function
+Branch solr_search_function set up to track remote branch solr_search_function from origin.
