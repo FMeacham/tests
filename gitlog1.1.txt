@@ -25,3 +25,48 @@ Total 0 (delta 0), reused 0 (delta 0)
 To https://github.com/FMeacham/tests.git
  * [new branch]      solr_search -> solr_search
 Branch solr_search set up to track remote branch solr_search from origin.
+
+
+
+D-69-91-158-14:tests frazer$ git status
+On branch solr_search
+Your branch is up-to-date with 'origin/solr_search'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   multiply.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	gitlog1.1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+D-69-91-158-14:tests frazer$ git commit -a -m 'Modified multiply.py and created gitlog1.1.txt'
+[solr_search 3ee7f9d] Modified multiply.py and created gitlog1.1.txt
+ 1 file changed, 1 insertion(+)
+D-69-91-158-14:tests frazer$ git status
+On branch solr_search
+Your branch is ahead of 'origin/solr_search' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	gitlog1.1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+D-69-91-158-14:tests frazer$ git add gitlog1.1.txt
+D-69-91-158-14:tests frazer$ git status
+On branch solr_search
+Your branch is ahead of 'origin/solr_search' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   gitlog1.1.txt
+
+D-69-91-158-14:tests frazer$ git commit -m 'Added gitlog1.1.txt because I failed to in the last commit'
+[solr_search 8f87c06] Added gitlog1.1.txt because I failed to in the last commit
+ 1 file changed, 27 insertions(+)
+ create mode 100644 gitlog1.1.txt
